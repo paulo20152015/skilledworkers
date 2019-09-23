@@ -2,7 +2,7 @@
 
 if(!function_exists('sms')){
     function sms($number,$message){
-		$apicode="TR-RENMA302689_LP556";
+		$apicode="TR-ROVIR270732_PUHLS";
         $url = 'https://www.itexmo.com/php_api/api.php';
 		$itexmo = array('1' => $number, '2' => $message, '3' => $apicode);
 		$param = array(
